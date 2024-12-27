@@ -1,0 +1,41 @@
+{
+  "name": "rosebones-theme",
+  "displayName": "Rosebones Theme",
+  "description": "A dark theme with purple and rose accents",
+  "version": "0.1.1",
+  "publisher": "CoderSauce",
+  "engines": {
+    "vscode": "^1.75.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "icon": "assets/icon.png",
+  "contributes": {
+    "themes": [
+      {
+        "label": "Rosebones",
+        "uiTheme": "vs-dark",
+        "path": "./themes/rosebones-color-theme.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/codersauce/rosebones"
+  },
+  "keywords": [
+    "theme",
+    "dark theme",
+    "rosebones",
+    "purple",
+    "rose"
+  ],
+  "scripts": {
+    "package": "vsce package",
+    "publish": "vsce publish"
+  },
+  "__metadata": {
+    "size": 5285
+  }
+}
